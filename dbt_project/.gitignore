@@ -10,3 +10,6 @@ dbt_packages/
 target/
 package-lock.yml
 dbt_internal_packages/
+rsa_key.p8
+rsa.key.pub
+

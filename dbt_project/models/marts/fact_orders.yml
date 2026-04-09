@@ -15,7 +15,7 @@ models:
         data_tests:
           - not_null
           - relationships:
-              arguments:
+              # arguments:
                 to: ref('dim_customers')
                 field: id
 
@@ -39,7 +39,7 @@ models:
         data_tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
-              arguments:
+              # arguments:
                 min_value: 0
                 max_value: 100000
 
